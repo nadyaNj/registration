@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="container">
+    <div class="header">
+        <h1>Registration Page</h1>
+    </div>
+<div class="right_sidebar">
+<p><a href="">Registration</a></p>
+    <p><a href="">Login</a></p>
+    <p><a href="">Rules</a></p>
+</div>
+<div class="content">
+<form action="" method="post">
+<fieldset>
+<label>First Name<span class="red_star">*</span> </label><input id="firstName" name="FirstName" type="text" />
+<label>Second Name<span class="red_star">*</span> </label><input id="secondName" name="SecondName" type="text" />
+<label>Middle Name </label><input id="lastName" name="MiddleName" type="text" >
+<label>E-Mail<span class="red_star">*</span> </label><input id="email" name="eMail" type="text" >
+<label>Home Address<span class="red_star">*</span> </label><input id="address" name="HomeAddress" type="text" />
+<fieldset>
+<label>Username<span class="red_star">*</span> </label><input id="username" name="login" type="text"/>
+<label>Password<span class="red_star">*</span> </label><input id="firstPassword" name="firstPassword" type="password" />
+<label>Repeat Password<span class="red_star">*</span> </label><input id="secondPassword" name="secondPassword" type="password" />
+</fieldset>
+
+    <input type="button" value="Reset" id="reset" onclick="resetfields()" />
+    <input type="button" value="Submit" id="registration" onclick="registration()" />
+
+    <span class="red_star">* - input required.</span>
+</fieldset>
+
+</form>
+</div>
+</div>
+</body>
+</html>
